@@ -2,6 +2,7 @@ Answer 1)Bottom up incremental integration is testing start from bottom module t
 In top down incremental integration testing is start from top of module to the bottom module.Bottom modules are represented by stubs.
 stubs and drivers are dummy codes used to stimulate behaviour of existing code.Developers use this dummy code to stimulate the behaviour of code that they have not written.
 Advantage of bottom up incremental integration is that test case creation is more easy. And make expected results more accurately.Disadvantage of bottom up incremental integration test cases may some time irrevalent.
+
 2)In amazone sites will check whether add to cart functionality is working fine.
 a)Check whether add to cart button is working or not
 b)Check whether multiple adding of items can be added to cart successfully
