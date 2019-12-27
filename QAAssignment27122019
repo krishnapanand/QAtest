@@ -1,1 +1,37 @@
-gffdg
+Ans 1)Bottom up integration means integration starts from the bottom of the system module to the top of the system module.In this drivers are used to stimulate the behaviour of existing module.
+Drivers are pseudo code that can be used for replacing the code that have not written.So that developers can use this code to produce the result of code that they have written.
+Testers uses this code for checking the code that developers written.Example for bottom up integration is that login page of an application is not complted and 
+internal screens like saving students details in a student details saving page has completed.So by using bottom up integration we can test internal screen like student
+saving details page even loaging and registration screen are not ready by using some drivers.
+advantage of bottom up integration is It is more time consuming and check internal functionality of an application even loginregistration screen like starting screen 
+s are not ready.
+2)
+2.1)First test check whether new user is able to register
+2.2)Check whether existing user can able to login to the amazon site
+2.3)Check whether user is able to search for particular item(shoesbags)
+2.4)Check whether user able to see details of item he/she want to buy
+2.5)check whether user able to add a product to a cart
+2.6)check whether user can add multiple products to cart
+2.7)Check whether cart showing all the item user added and total amount of the item he parchased is correct or not
+2.8)Verify whether user can able to place the order without failure,it inclue check proceed to check out button is worning
+2.9)check whether user get confirmation mail when he placed order of item.
+2.10)Check whether user get continuous tracking feedback of item he purchased.
+2.11)Check whether all internal links like shop by category,todays deals,sign in list,order list all these links navigate to appropriate pages.
+2.12)Check whether user get mail when he login into the site.
+2.13)check whether users can view sites in different languages as he want,by checking different languages link at the top of amazon site.
+2.14)Check whether buy now button is working and navigate to login screen if user is not login or if the user is login it should be navigate to proceed to check out page.
+2.15)check whether any page lay out issues occuring and and check for spelling mistakes
+
+3)I have tested an API.i have used postman for testing api. Having different commands like GET,POST
+Normally GET command is used to check search results like details of students in a college.
+POST command is used in the case of update,save.For eg:Updating students details.
+after sending commands,api giving some status code like 200.Normally 200 status code denotes that calling API is completed successfully.
+API test availability can be ensure by using API monitoring.API monitoring ensures whether API test is available or not.
+404 error denote that cloud responds with some invalid responds time and is not available to api.
+503 error causing some issues in API calling may be result of overloading memory usage.
+
+
+
+
+
+
